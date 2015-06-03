@@ -1,4 +1,4 @@
-# round-robin
+# round-robin [![Circle CI](https://circleci.com/gh/vdemedes/round-robin.svg?style=svg)](https://circleci.com/gh/vdemedes/round-robin)
 
 Implementation of round-robin algorithm.
 
@@ -31,6 +31,8 @@ next(); // => '192.168.0.1'
 
 
 ### Tests
+
+[![Circle CI](https://circleci.com/gh/vdemedes/round-robin.svg?style=svg)](https://circleci.com/gh/vdemedes/round-robin)
 
 ```
 $ make test
