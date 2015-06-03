@@ -12,8 +12,8 @@ module.exports = roundrobin;
  */
 
 function roundrobin (arr) {
-  var length = arr.length;
-  var index = 0;
+  let length = arr.length;
+  let index = 0;
   
   return function () {
     if (index >= length) index = 0;

@@ -4,7 +4,7 @@
  * Dependencies
  */
 
-var roundrobin = require('./');
+const roundrobin = require('./');
 
 require('chai').should();
 
@@ -16,13 +16,13 @@ require('chai').should();
 describe ('round-robin', function () {
   
   it ('return next item', function () {
-    var servers = [
+    let servers = [
       'server-1',
       'server-2',
       'server-3'
     ];
     
-    var next = roundrobin(servers);
+    let next = roundrobin(servers);
     
     next().should.equal('server-1');
     next().should.equal('server-2');

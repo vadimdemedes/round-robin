@@ -15,13 +15,13 @@ $ npm install vdemedes/round-robin --save
 ```javascript
 const roundrobin = require('round-robin');
 
-var servers = [
+let servers = [
 	'192.168.0.1',
 	'192.168.0.2',
 	'192.168.0.3'
 ];
 
-var next = roundrobin(servers);
+let next = roundrobin(servers);
 
 next(); // => '192.168.0.1'
 next(); // => '192.168.0.2'
