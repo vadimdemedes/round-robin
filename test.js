@@ -4,7 +4,7 @@
  * Dependencies
  */
 
-const roundrobin = require('./');
+var roundrobin = require('./');
 
 require('chai').should();
 
